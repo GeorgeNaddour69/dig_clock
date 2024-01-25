@@ -4,7 +4,8 @@
     padding: 0;
 }
 
-
+body{width: 800px;
+height: 800px;}
 article{width: 57%;
     height: 290px;
     /* margin: auto; */
@@ -97,6 +98,12 @@ border-radius: 50%;
     rgba(99,253,136,1) 0%,
     rgba(51,197,142,1) 50%,
     rgba(39,97,116,1) 100%);}
+ @media (max-width:600px)
+    {
+        main,article {width: 95%;}
+         #the_clock{font-size: 60px;}
+         #the_date{font-size: 25px;} 
+    }
     @media (max-width:800px)
     {
         main,article {width: 90%;}
